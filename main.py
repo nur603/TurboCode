@@ -82,10 +82,41 @@
 # name = input ("name = ")
 # a = f"Hello {name}"
 # print(a)
-txt  = ("Hello Banana greps apple Banana banana")
-upperall = txt.upper()
-print(upperall)
-replace = upperall.replace("BANANA", "apple")
-print(replace)
+# txt  = ("Hello Banana greps apple Banana banana")
+# upperall = txt.upper()
+# print(upperall)
+# replace = upperall.replace("BANANA", "apple")
+# print(replace)
+# password1 = '2222'#Jack
+# password2 = '3333'#Nick
+
+# user_input = input("Введи пароль")
+
+# if user_input == password1:
+#   print('Hello Jack')
+# elif user_input == password2:
+#   print('hello Nick')
+# else:
+#   print('wrong password!')
+
+Number1 = input ("Vvedite num1 = ")
+Oper = input ("Vyberite oper  +, -, *, /, = ")
+Number2 = input ("Vvedite num2 = ")
+Number1 = int(Number1)
+Number2 = int(Number2)
+
+if Oper == "+":
+	print(Number1 + Number2)
+elif Oper == "-":
+	print(Number1 - Number2)
+elif Oper == "*":
+	print(Number1 * Number2)
+elif Oper == "/":
+	print(Number1 / Number2)
+else:
+	print("Error")			
+
+
+
 
 
