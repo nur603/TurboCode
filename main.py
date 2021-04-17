@@ -54,5 +54,13 @@
 # print(round(d, 2))
 
 #print error
+#git init
+# git remote set-url 'https'
+# git add .
+# git status
+# git commit -m 'message'
+# git remote add origin https
+# git push origin master
+
 	
 
