@@ -79,11 +79,14 @@
 # S = p * r**2
 # print (S)
 
-name = input ("name = ")
-a = f"Hello {name}"
-print(a)
-	
+# name = input ("name = ")
+# a = f"Hello {name}"
+# print(a)
+txt  = ("Hello Banana greps apple Banana banana")
+a = txt.replace("Banana", "BANANA")
+b = a.replace("banana", "BANANA")
+print(b)
+x = b.replace("BANANA", "apple")
+print(x)
 
-
-	
 
