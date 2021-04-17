@@ -99,23 +99,42 @@
 # else:
 #   print('wrong password!')
 
-Number1 = input ("Vvedite num1 = ")
-Oper = input ("Vyberite oper  +, -, *, /, = ")
-Number2 = input ("Vvedite num2 = ")
-Number1 = int(Number1)
-Number2 = int(Number2)
+# Number1 = input ("Vvedite num1 = ")
+# Oper = input ("Vyberite oper  +, -, *, /, = ")
+# Number2 = input ("Vvedite num2 = ")
+# Number1 = int(Number1)
+# Number2 = int(Number2)
 
-if Oper == "+":
-	print(Number1 + Number2)
-elif Oper == "-":
-	print(Number1 - Number2)
-elif Oper == "*":
-	print(Number1 * Number2)
-elif Oper == "/":
-	print(Number1 / Number2)
+# if Oper == "+":
+# 	print(Number1 + Number2)
+# elif Oper == "-":
+# 	print(Number1 - Number2)
+# elif Oper == "*":
+# 	print(Number1 * Number2)
+# elif Oper == "/":
+# 	print(Number1 / Number2)
+# else:
+# 	print("Error")			
+
+Gender = input ("Girl and Boy? \n")
+Age = input ("Your age?\n")
+GenUp = Gender.upper()
+Age = float(Age)
+if GenUp == "GIRL" and Age >=18:
+	print("Open")
+elif GenUp == "GIRL" and Age <=18:
+	print("Go home")
+elif GenUp == "BOY" and Age >=21:
+	print("Open")
+elif GenUp == "BOY" and Age <=21:
+	print("Go home")
 else:
-	print("Error")			
+	print("ERROR")	
 
+
+##print (GenUp)
+# Age = input ("Укажите ваш возраст -->")
+# if Gender "М" and "м" 
 
 
 
