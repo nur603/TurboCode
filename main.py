@@ -83,10 +83,9 @@
 # a = f"Hello {name}"
 # print(a)
 txt  = ("Hello Banana greps apple Banana banana")
-a = txt.replace("Banana", "BANANA")
-b = a.replace("banana", "BANANA")
-print(b)
-x = b.replace("BANANA", "apple")
-print(x)
+upperall = txt.upper()
+print(upperall)
+replace = upperall.replace("BANANA", "apple")
+print(replace)
 
 
