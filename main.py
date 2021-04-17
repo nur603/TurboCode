@@ -104,8 +104,18 @@
 # Number2 = input ("Vvedite num2 = ")
 # Number1 = int(Number1)
 # Number2 = int(Number2)
-
-# if Oper == "+":
+# Sex = input("Input your sex (female, male):")
+# Age = input("Input your age:\n")
+# Age = int(Age)
+# if Sex == "female" and Age >= 18:
+#   print("Come in")
+# elif Sex == "male" and Age >= 21:
+#   print("Come in")
+# elif (Sex == "male" and Age <0) or (Sex == "female" and Age<0):
+#   print ("Error")
+# else:
+#   print("Go home!")
+# # if Oper == "+":
 # 	print(Number1 + Number2)
 # elif Oper == "-":
 # 	print(Number1 - Number2)
@@ -115,26 +125,72 @@
 # 	print(Number1 / Number2)
 # else:
 # 	print("Error")			
+# gen = input("Choose your gender\n")
+# age = input("What is your age\n")
+# if int(age) <= 0:
+#   print("Write the correct age")
+#   age = input("What is your age\n")
 
-Gender = input ("Girl and Boy? \n")
-Age = input ("Your age?\n")
-GenUp = Gender.upper()
-Age = float(Age)
-if GenUp == "GIRL" and Age >=18:
-	print("Open")
-elif GenUp == "GIRL" and Age <=18:
-	print("Go home")
-elif GenUp == "BOY" and Age >=21:
-	print("Open")
-elif GenUp == "BOY" and Age <=21:
-	print("Go home")
-else:
-	print("ERROR")	
+# gen = str(gen).upper()
+# if (gen == "W" and int(age) >= 18) or (gen == "M" and int(age) >= 21):
+#   print("Ote ber")
+# else:
+#   print("Kait uine")
+# Gender = input ("Girl and Boy? \n")
+# Age = input ("Your age?\n")
+# GenUp = Gender.upper()
+# Age = float(Age)
+# if GenUp == "GIRL" and Age >=18:
+# 	print("Open")
+# elif GenUp == "GIRL" and Age <=18:
+# 	print("Go home")
+# elif GenUp == "BOY" and Age >=21:
+# 	print("Open")
+# elif GenUp == "BOY" and Age <=21:
+# 	print("Go home")
+# else:
+# 	print("ERROR")	
+#dict
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+# # ['apple', 'banana', 'cherry', 'orange']
 
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[4:])
+# # ["kiwi", "melon", "mango"]
 
-##print (GenUp)
-# Age = input ("Укажите ваш возраст -->")
-# if Gender "М" and "м" 
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# thislist[2] = 'KKKKK'
+# fruit = thislist[3]
+# print(thislist)
+# print(fruit)
+
+#d = {
+#   'name' : 'Egor',
+#   'surname': 'EgorUlyKotiBar',
+#   'pas': 123123,
+#   'WW': True,
+#   'array': [12,2,3,24,3],
+#   'dd': {
+#     '2level': 'Egor2',
+#     '2pas': 21312
+#   }
+# }
+
+# a = input("Vvedite = ")
+# b = input("Vvdeite = ")
+# print(a)
+# print(b)
+# a = int(a)
+# b = int(b)
+# a = a + b
+# b = a - b
+# a = a - b
+# print(a)
+# print(b)
 
 
 
