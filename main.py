@@ -73,11 +73,17 @@
 # # str d = a + b + c 
 # print(d)
 
-r = input ("r = ")
-r = int(r)
-p = 3.14
-S = p * r**2
-print (S)
+# r = input ("r = ")
+# r = int(r)
+# p = 3.14
+# S = p * r**2
+# print (S)
+
+name = input ("name = ")
+a = f"Hello {name}"
+print(a)
+	
+
 
 	
 
