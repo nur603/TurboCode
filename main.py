@@ -1,3 +1,4 @@
+ # -*- coding: utf-8 -*-
 # Hello World
 # print("Hello Elon Mars")
 # '''
@@ -61,6 +62,22 @@
 # git commit -m 'message'
 # git remote add origin https
 # git push origin master
+
+#input task 
+
+# a = input ("Number \n")
+# b = input ("Number \n")
+# c = input ("Number \n")
+
+# d = int(a) * int(b) * int(c) 
+# # str d = a + b + c 
+# print(d)
+
+r = input ("r = ")
+r = int(r)
+p = 3.14
+S = p * r**2
+print (S)
 
 	
 
