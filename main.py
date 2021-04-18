@@ -189,9 +189,66 @@
 # a = a + b
 # b = a - b
 # a = a - b
+# a, b = b , a
 # print(a)
 # print(b)
 
+# num = [1,2,7,4,5,6,3]
+# txt = ["mango", "banan", "mandarin", "alma"]
+# num.pop(2)
+# num.sort()
+# txt.sort()
+# num = sorted(num)
+# txt = sorted(txt)
+# print(num)
+# print(txt)
+
+# i = 0
+# while i < len(thislist):
+#   # print(thislist[i])
+#   if thislist[i] == 'cherry':
+#     print(thislist[i])
+#   else:
+#     print('other fruit')
+#   i += 1#i = i + 1
+
+# i = 0
+# while i < 2:
+#   j = 0
+#   while j < 2:
+#     print('this is I', i)
+#     print('this is J', j)
+#     j += 1
+#   i += 1
+# print(j)
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
+# for i in thislist:
+# 	print(i) 
+# 	if i == 'orange':
+# 		break
+
+txt = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
+txtup = txt.upper()
+# print(txt)
+# print(txtup)
+txt = txt.split(' ')
+txtup = txtup.split(' ')
+for x in range(0, len(txtup)):
+	if txtup[x] == "BANANA":
+		txt[x] = "BANANA"
+txt = ' '.join(txt)
+print(txt)
+# txt = txt.split(' ') #txt = ['asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA', 'asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA', 'asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA']
 
 
+# txt = txt.split(' ')
+# txt = txt.upper()
+# for x in txt == "BANANA"
+	
 
+# sp = sp.split(' ')
+
+# sp = ' '.join()
+# print(txt)
