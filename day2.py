@@ -41,7 +41,7 @@
 # print(x)
 # print(x.strftime("%d.%m.%Y %H:%M"))
 
-from openpyxl import load_workbook
+# from openpyxl import load_workbook
 
 # wb = load_workbook('table.xlsx')
 # # print(wb.sheetnames)
@@ -58,18 +58,47 @@ from openpyxl import load_workbook
 
 # wb.save('table.xlsx')
 
-wb = load_workbook('table2.xlsm')
-print(wb.sheetnames)
-sheet = wb.get_sheet_by_name('Database')
-# print(sheet['K4'].value)
-sum1 = 0
-for i in range(4, 25):
-	a = sheet.cell(row=i, column=11).value
-	# a = heet.cell(row=i, column=4).value
-	sum1 = sum1 + a
-print(sum1)
-	# a = int(a)
-   
+# wb = load_workbook('table2.xlsm')
+# print(wb.sheetnames)
+# sheet = wb.get_sheet_by_name('Database')
+# # print(sheet['K4'].value)
+# sum1 = 0
+# for i in range(4, 25):
+# 	a = sheet.cell(row=i, column=11).value
+# 	# a = heet.cell(row=i, column=4).value
+# 	sum1 = sum1 + a
+# print(sum1)
+# 	# a = int(a)
+
+import requests
+import json
+
+# res = requests.get('https://jsonplaceholder.typicode.com/posts')
+# # print(res.text)
+# response = res.text
+# response = json.loads(response)
+# # print(type(response))
+# # for i in response:
+# # 	if i['userId'] == 1:
+# # 		print(i['title'])
+
+# # for i in range(0,len(response)):
+# # 	if response[i]['userId'] == 1:
+# # 		print(response[i]['title'])
+
+# for i in response:
+# 	if i['title'] == 'non est facere':
+# 		print(i['body'])
+
+
+res = requests.get('https://jsonplaceholder.typicode.com/users')
+# print(res.text)
+response = res.text
+
+response = json.loads(response)
+for i in response:
+	if i['id'] == 4:
+		print(i['address']['geo'])
 
 
 
