@@ -14,7 +14,7 @@
 # my_func('Berik', 'Serikovich')
 
 # def task1(a,b):
-# 	return a * b
+# 	return a * b     
 
 # print(task1(3,6))	
 
@@ -30,12 +30,48 @@
 
 # mmod.night_club(age)
 
-import arif as mt
-import str_work as st
+# import arif as mt
+# import str_work as st
 
-print(mt.plus(1,4))
-print(mt.minus(1,4))
-print(st.add_str('Egor','Berikov'))
+# print(mt.plus(1,3))
+# print(mt.minus(4,3))
+# print(st.add_str('Egor','Berikov'))
+#datetime
+# x = datetime.datetime(2020, 5, 17)
+# print(x)
+# print(x.strftime("%d.%m.%Y %H:%M"))
+
+from openpyxl import load_workbook
+
+# wb = load_workbook('table.xlsx')
+# # print(wb.sheetnames)
+# sheet = wb.get_sheet_by_name('users')
+# print(sheet)
+# # print(sheet['A2'].value)
+# sheet['A2'].value = 'Beka'
+# # print(sheet['A2'].row)
+# # print(sheet['A2'].column)
+# # print(sheet['A2'].coordinate)
+
+# for i in range(1, 5):
+#      print(i, sheet.cell(row=i, column=1).value)
+
+# wb.save('table.xlsx')
+
+wb = load_workbook('table2.xlsm')
+print(wb.sheetnames)
+sheet = wb.get_sheet_by_name('Database')
+# print(sheet['K4'].value)
+sum1 = 0
+for i in range(4, 25):
+	a = sheet.cell(row=i, column=11).value
+	# a = heet.cell(row=i, column=4).value
+	sum1 = sum1 + a
+print(sum1)
+	# a = int(a)
+   
+
+
 
 
 
