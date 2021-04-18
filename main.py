@@ -229,18 +229,17 @@
 # 	if i == 'orange':
 # 		break
 
-txt = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
-txtup = txt.upper()
+# txt = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
+# txtup = txt.upper()
+# # print(txt)
+# # print(txtup)
+# txt = txt.split(' ')
+# txtup = txtup.split(' ')
+# for x in range(0, len(txtup)):
+# 	if txtup[x] == "BANANA":
+# 		txt[x] = "BANANA"
+# txt = ' '.join(txt)
 # print(txt)
-# print(txtup)
-txt = txt.split(' ')
-txtup = txtup.split(' ')
-for x in range(0, len(txtup)):
-	if txtup[x] == "BANANA":
-		txt[x] = "BANANA"
-txt = ' '.join(txt)
-print(txt)
-# txt = txt.split(' ') #txt = ['asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA', 'asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA', 'asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA']
 
 
 # txt = txt.split(' ')
@@ -252,3 +251,45 @@ print(txt)
 
 # sp = ' '.join()
 # print(txt)
+# i = 0
+# a = a.split()
+# while i < len(a):
+#   if a[i].lower() == 'banana':
+#     a[i] = 'BANANA'
+#   i += 1# txt = txt.split(' ') #txt = ['asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA', 'asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA', 'asd', 'awd', 'awd', 'awD', 'awd', 'banana', 'BanAna', 'bananA', 'apple', 'asd', 'asdw', 'ad', 'da', 'BananA']
+
+# a = ' '.join(a)
+# print(a)
+
+# for i in range(1,11):
+# 	if i % 2 == 0:
+# 		print(i)
+# x1 = [1,2,3,4,5]
+
+# x2 = [1,5,10]
+# for i in range(0,len(x1)):
+#  for j in range(0,len(x2)):
+#   if x1[i] == x2[j]:
+#    a = x1[i]
+#    b = x2[j]
+#    print(a,b)
+
+a1 = [1,2,3,4,5]
+a2 = [1,2,10,5]
+for a in range(0,len(a1)):
+	for b in range(0,len(a2)):
+		if a1[a] == a2[b]:	
+			print(a1[a])	
+
+
+
+
+
+
+
+
+
+
+
+
+
