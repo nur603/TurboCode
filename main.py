@@ -274,13 +274,19 @@
 #    b = x2[j]
 #    print(a,b)
 
-a1 = [1,2,3,4,5]
-a2 = [1,2,10,5]
-for a in range(0,len(a1)):
-	for b in range(0,len(a2)):
-		if a1[a] == a2[b]:	
-			print(a1[a])	
+# a1 = [1,2,3,4,5]
+# a2 = [1,2,10,5]
+# for a in range(0,len(a1)):
+# 	for b in range(0,len(a2)):
+# 		if a1[a] == a2[b]:	
+# 			print(a1[a])	
 
+
+try:
+	a = input("Num = ")
+	print(int(a) * 10)
+except Exception as e:
+	print("ERROR, Enter a number")
 
 
 
