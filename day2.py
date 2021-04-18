@@ -24,25 +24,18 @@
 # func(a, c=9)
 
 
+# import my_module as mmod
 
-age = input ("Your age?\n")
+# age = input ("Your age?\n")
 
+# mmod.night_club(age)
 
-def night_club(age):
+import arif as mt
+import str_work as st
 
-	try:
-		age = int(age)
-		if age>=18:
-			print("Open")
-		else:
-			print("Go home")
-	except Exception as e:
-		print(e,"Enter a number")
-			
-	
-
-night_club(age)
-
+print(mt.plus(1,4))
+print(mt.minus(1,4))
+print(st.add_str('Egor','Berikov'))
 
 
 

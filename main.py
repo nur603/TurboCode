@@ -282,11 +282,11 @@
 # 			print(a1[a])	
 
 
-try:
-	a = input("Num = ")
-	print(int(a) * 10)
-except Exception as e:
-	print(e, "ERROR! Enter a number")
+# try:
+# 	a = input("Num = ")
+# 	print(int(a) * 10)
+# except Exception as e:
+# 	print(e, "ERROR! Enter a number")
 
 
 
