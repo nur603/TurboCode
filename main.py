@@ -286,7 +286,7 @@ try:
 	a = input("Num = ")
 	print(int(a) * 10)
 except Exception as e:
-	print("ERROR, Enter a number")
+	print("ERROR! Enter a number")
 
 
 
