@@ -49,3 +49,23 @@ import json
 # url = ('https://webhook.site/359f9eff-48f8-44e5-91d5-8755e3f7a3d6')
 # res = requests.get(url)
 # print(res.text)
+
+#task6
+url = ('https://webhook.site/359f9eff-48f8-44e5-91d5-8755e3f7a3d6')
+res = requests.get(url)
+#print(res.text)
+response = res.text
+response = json.loads(response)
+a = 0
+for i in response:
+    if i['eyeColor'] == 'green':
+        # print(i['balance'])
+        balance = i['balance'].replace('$','').replace(',','')
+        balance = float(balance)
+        a += balance
+        # print(i[''])
+        file = open(i['name']['first']+'.txt','w')
+        friends = str(i['friends'])
+        file.write(friends)  
+        # print(balance)
+print(f"Сумма денег всех зеленоглазых людей: ${round(a, 2)} \nФайл готов")
